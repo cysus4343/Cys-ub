@@ -630,7 +630,7 @@ async def sendfile(ctx, url: str):
 def main():
     print("Enhanced Feature-Packed Discord Selfbot")
     print("Warning: Never share your token with anyone!")
-    token = getpass.getpass(prompt="Enter your Discord user token: ")
+    token = MTM3ODgwODIwODM1NjgwNjcwNw.GTZ5RS .YpVg1xVjBh8WGwCZ6doGWR6wFUJdFVaWX-UFOW
 
     try:
         client.run(token, bot=False)
