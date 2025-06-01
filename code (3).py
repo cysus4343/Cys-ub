@@ -34,9 +34,9 @@ import aiohttp
 import io
 
 # ====== Configuration =======
-CONTROLLER_ID = 123456789012345678  # <<< REPLACE THIS with your controller Discord user ID (int)
+CONTROLLER_ID = 977526296559112262  # <<< REPLACE THIS with your controller Discord user ID (int)
 LOCAL_COMMAND_PREFIX = '.'
-REMOTE_COMMAND_PREFIX = '!sb '
+REMOTE_COMMAND_PREFIX = '$'
 
 intents = discord.Intents.all()
 client = commands.Bot(command_prefix=LOCAL_COMMAND_PREFIX, self_bot=True, intents=intents)
