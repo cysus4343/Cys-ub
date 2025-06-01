@@ -109,7 +109,6 @@ async def del_(ctx):
         try:
             await last_message.delete()
             await ctx.send("Deleted last message.", delete_after=3)
-            global last_message
             last_message = None
         except discord.Forbidden:
             await ctx.send("I don't have permission to delete messages.", delete_after=5)
